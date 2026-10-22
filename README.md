@@ -17,7 +17,6 @@ When incoming data drifts past a Wasserstein threshold (**> 0.1**), the Prefect 
 ## Quick start
 
 ```bash
-# Python 3.12 recommended (via uv)
 uv venv --python 3.12 .venv
 source .venv/bin/activate
 uv pip install -r requirements.txt
@@ -28,11 +27,8 @@ python scripts/run_demo.py
 ### Optional UIs (for screenshots)
 
 ```bash
-# MLflow tracking UI
 mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5000
-# open http://127.0.0.1:5000 → Models → demand-forecast-model
 
-# Open Evidently HTML report
 open outputs/drift_reports/drift_report.html
 ```
 
