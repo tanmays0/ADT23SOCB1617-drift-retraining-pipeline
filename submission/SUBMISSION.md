@@ -13,13 +13,13 @@
 
 ## GitHub repository
 
-https://github.com/tanmays0/automated-drift-retraining-pipeline
+https://github.com/tanmays0/ADT23SOCB1617-drift-retraining-pipeline
 
 ## Live / local check links
 
 | What | URL / path |
 |------|------------|
-| GitHub | https://github.com/tanmays0/automated-drift-retraining-pipeline |
+| GitHub | https://github.com/tanmays0/ADT23SOCB1617-drift-retraining-pipeline |
 | MLflow Models UI | http://127.0.0.1:5000/#/models |
 | Evidently drift report | http://127.0.0.1:8765/drift_report.html |
 | Alert file | `outputs/alerts/alert_*.txt` |
